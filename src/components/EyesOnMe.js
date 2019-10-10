@@ -15,7 +15,8 @@ blurFire = () => console.log('Hey! Eyes on me!');
             onBlur={this.blurFire} >
         </button>
       </div>
-
     )
   }
 }
+
+export default EyesOnMe;
