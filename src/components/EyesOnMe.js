@@ -10,7 +10,7 @@ focusFire = () => console.log('Good!')
     return(
       <div>
         <button>
-            onFocus=''
+            onFocus={this.focusFire}
         </button>
       </div>
 
