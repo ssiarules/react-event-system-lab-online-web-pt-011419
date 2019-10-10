@@ -4,8 +4,8 @@ import React, {Component} from 'react';
 class EyesOnMe extends Component {
 
 
-focusFire = () => console.log('Good!')
-blurFire = () => console.log('Hey! Eyes on me!')
+focusFire = () => console.log('Good!');
+blurFire = () => console.log('Hey! Eyes on me!');
 
   render(){
     return(
