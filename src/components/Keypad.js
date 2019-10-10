@@ -9,7 +9,8 @@ export class Keypad extends Component {
 render(){
   return(
 
-    <div input=>
+    <div
+    <input="password"/>
 
     </div
   )
