@@ -10,7 +10,7 @@ render(){
   return(
 
     <div>
-    <input="password" onKeyUp={console.log('Entering password...')}/>
+    <input type="password" onKeyUp={console.log('Entering password...')}/>
 
     </div
   )
