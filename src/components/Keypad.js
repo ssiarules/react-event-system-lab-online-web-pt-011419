@@ -13,7 +13,7 @@ render(){
     <input type="password" onKeyUp={console.log('Entering password...')}/>
 
     </div
-  )
+  );
 }
 
 }
