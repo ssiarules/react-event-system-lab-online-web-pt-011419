@@ -9,8 +9,8 @@ export class Keypad extends Component {
 render(){
   return(
 
-    <div
-    <input="password"/>
+    <div>
+    <input="password" onKeyUp={console.log('Entering password...')}/>
 
     </div
   )
