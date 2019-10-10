@@ -12,9 +12,10 @@ blurFire = () => console.log('Hey! Eyes on me!');
       <div>
         <button
             onFocus={this.focusFire}
-            onBlur={this.blurFire} 
+            onBlur={this.blurFire}>
         </button>
       </div>
     )
   }
 }
+export default EyesOnMe;
