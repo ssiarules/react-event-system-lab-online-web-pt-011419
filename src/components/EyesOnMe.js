@@ -10,9 +10,9 @@ blurFire = () => console.log('Hey! Eyes on me!');
   render(){
     return(
       <div>
-        <button>
+        <button
             onFocus={this.focusFire}
-            onBlur={this.blurFire}
+            onBlur={this.blurFire} >
         </button>
       </div>
 
